@@ -1,0 +1,53 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #747704;
+  font-weight: 300;
+}
+
+h1 {
+  color: #5BADB2;
+}
+
+.text-muted {
+  color: #BCBBBB;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-logo {
+  margin-top: 20px;
+  width: 33%;
+}
+
+.title-super{
+  font-size: 60px;
+}
+
+hr {  
+  border-top: 3px solid #eee;
+}
+
+/*so images with links to modal have pointer cursor */
+.img-link {
+  cursor: pointer;
+}
+
+/*.carousel {
+  height: 400px;
+  overflow: hidden;
+}
+*/
+
+
+@media (max-width: 700px) {
+.top-image {
+display: none;
+}
+h1 {
+  color: red;
+  font-size: 1em;
+}
+}
+

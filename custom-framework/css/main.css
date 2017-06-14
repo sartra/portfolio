@@ -1,0 +1,91 @@
+*{
+  margin:0;
+  padding:0;
+  border:none;
+  outline:none;
+  list-style:none;
+}
+
+
+/**{
+  border: 1px solid red !important;
+}*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;  
+}
+
+/*    12 COLUMN GRID    */
+.row {
+  width: 100%;
+  display: flex; 
+ /* The CSS flex-wrap property specifies whether flex items are forced into a single line or can be wrapped onto multiple lines. If wrapping is allowed, this property also enables you to control the direction in which lines are stacked.*/
+ flex-wrap: wrap;
+ padding: 10px;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+
+body {
+  padding: 5% 10%;
+}
+
+
+h1 {
+  color: grey;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.myName {
+  float: right;
+}
+
+.grid3-img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo{
+  width: 70%;
+  display: block;
+  margin: auto;
+}
